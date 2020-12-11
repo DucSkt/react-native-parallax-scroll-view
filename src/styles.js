@@ -6,8 +6,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent'
   },
   parallaxHeaderContainer: {
-    backgroundColor: 'transparent',
-    overflow: 'hidden'
+    // backgroundColor: 'transparent',
+    // overflow: 'hidden'
   },
   parallaxHeader: {
     backgroundColor: 'transparent',
