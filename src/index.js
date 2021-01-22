@@ -127,6 +127,8 @@ class ParallaxScrollView extends Component {
 				ref: SCROLLVIEW_REF,
 				style: [styles.scrollView, scrollElement.props.style],
 				scrollEventThrottle: 1,
+				showsVerticalScrollIndicator: false,
+				showsHorizontalScrollIndicator: false,
 				// Using Native Driver greatly optimizes performance
 				onScroll: Animated.event([{ nativeEvent: { contentOffset: { y: this.scrollY } } }], {
 					useNativeDriver: true,
